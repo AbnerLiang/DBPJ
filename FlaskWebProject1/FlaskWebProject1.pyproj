@@ -34,13 +34,17 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="FlaskWebProject1\" />
+    <Folder Include="FlaskWebProject1\static\pic\" />
     <Folder Include="FlaskWebProject1\static\" />
     <Folder Include="FlaskWebProject1\static\content\" />
     <Folder Include="FlaskWebProject1\static\fonts\" />
     <Folder Include="FlaskWebProject1\static\scripts\" />
     <Folder Include="FlaskWebProject1\templates\" />
+    <Folder Include="FlaskWebProject1\templates\account\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="FlaskWebProject1\static\pic\logo.jpeg" />
+    <Content Include="FlaskWebProject1\templates\account\WebPage1.html" />
     <Content Include="FlaskWebProject1\templates\ServiceContent.html" />
     <Content Include="FlaskWebProject1\templates\user.html" />
     <Content Include="FlaskWebProject1\templates\tutorial.html" />

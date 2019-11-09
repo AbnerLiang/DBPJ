@@ -23,7 +23,7 @@
                         <div class=form-group>
                             <label class="col-sm-5 control-label required" for=email>電郵地址</label>
                             <div class=col-sm-7>
-                                <input type=email class=form-control name=email id=email placeholder=john.doe@example.com value>
+                                <input type=email class=form-control name=email id=email placeholder=sys@example.com value>
                             </div>
                         </div>
                     </div>
@@ -40,23 +40,26 @@
                 </div>
                 <button type=submit class="btn btn-default">登入</button>
                 <a href=https://www.buyandship.com.tw/reset-password>忘記密碼？</a>
-
-
-
-
             </form>
         </div>
     </div>
     <div role=tabpanel class="tab-pane sf-hidden" id=basic-signup>
         <div class=storetype-member-basic-login-panel>
             <form class=form-horizontal id=buyandship-basic-signup-form role= form method=post action="/login?action=signup">
-                <div class=row>
                     <div class=row>
                         <div class=col-sm-4>
                             <div class=form-group>
                                 <label class="col-sm-5 control-label required" for=lastName>英文姓名</label>
                                 <div class=col-sm-7>
                                     <input type=text class=form-control id=Name name=Name placeholder=SysNational value>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=col-sm-4>
+                            <div class=form-group>
+                                <label class="col-sm-5 control-label required" for=lastName>收貨人姓名</label>
+                                <div class=col-sm-7>
+                                    <input type=text class=form-control id=lastName name=lastName placeholder=SysNational value>
                                 </div>
                             </div>
                         </div>
@@ -67,6 +70,14 @@
                                 <label class="col-sm-5 control-label required" for=email>電郵地址</label>
                                 <div class=col-sm-7>
                                     <input type=email class=form-control id=email name=email placeholder=sys@example.com value>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=col-sm-4>
+                            <div class=form-group>
+                                <label class="col-sm-5 control-label required" for=lastName>收貨人地址</label>
+                                <div class=col-sm-7>
+                                    <input type=text class=form-control id=address name=address placeholder=高雄市鼓山區蓮海路70號 value>
                                 </div>
                             </div>
                         </div>
@@ -81,28 +92,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class=row>
-                        <div class=col-sm-4>
-                            <div class=form-group>
-                                <label class="col-sm-5 control-label required" for=lastName>收貨人姓名</label>
-                                <div class=col-sm-7>
-                                    <input type=text class=form-control id=lastName name=lastName placeholder=SysNational value>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class=row>
-                        <div class=col-sm-4>
-                            <div class=form-group>
-                                <label class="col-sm-5 control-label required" for=lastName>收貨人地址</label>
-                                <div class=col-sm-7>
-                                    <input type=text class=form-control id=address name=address placeholder=高雄市鼓山區蓮海路70號 value>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class=row>
                         <div class=col-sm-4>
                             <div class=form-group>
                                 <label class="col-sm-5 control-label required" for=lastName>收貨人手機</label>
@@ -113,11 +102,9 @@
                         </div>
                     </div>
                     <button type=submit class="btn btn-default">註冊</button>
-                </div>
             </form>
         </div>
     </div>
 </div>
-<hr>
 
 {% endblock %}

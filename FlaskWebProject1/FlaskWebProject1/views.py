@@ -64,3 +64,14 @@ def user():
         year=datetime.now().year,
         message='立即登入或註冊成為會員，開始使用 中山國際轉運 服務！'
     )
+
+
+@app.route('/account/WebPage1')
+def WebPage1():
+    """Renders the about page."""
+    return render_template(
+        '/account/WebPage1.html',
+        title='成為會員 / 登入',
+        year=datetime.now().year,
+        message='歡迎再次登入中山國際轉運'
+    )
