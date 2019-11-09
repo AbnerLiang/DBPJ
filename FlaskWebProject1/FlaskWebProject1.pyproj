@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FlaskWebProject1\static\pic\logo.jpeg" />
-    <Content Include="FlaskWebProject1\templates\account\WebPage1.html" />
+    <Content Include="FlaskWebProject1\templates\account\account.html" />
     <Content Include="FlaskWebProject1\templates\ServiceContent.html" />
     <Content Include="FlaskWebProject1\templates\user.html" />
     <Content Include="FlaskWebProject1\templates\tutorial.html" />
